@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header>
+        <h1><a href=""> Товары</a></h1>
+        <div class="filters">
+            <div class="search">
+                <input class="search-input" type="text">
+                <input class="search-button" type="button" value="Поиск">
+            </div>
+            <div class="sort">
+                <label for="categories">Категории</label>
+                <select name="Категории" id="categories" >
+                    <option value="all">all</option>
+                </select>
+
+            </div>
+            <div class="basket">
+                <div class="basket__img">
+                    <img src="./images/basket.png" alt="">
+                </div>
+                <div class="backet__count"></div>
+            </div>
+        </div>
+    </header>
+<div class="container">
+    <div class="products"></div>
+    <div class="pagination"></div>
+</div>
+<div class="modal">
+
+    <div class="basket__items">
+        <div class="close">X</div>
+        <ul>
+
+        </ul>
+        <button class="down">Сбросить</button>
+    </div>
+</div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
